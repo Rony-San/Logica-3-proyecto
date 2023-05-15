@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="implementacion.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="https://github.com/Rony-San/Logica-3-proyecto" target="_blank">
+        <button>Codigo</button>
+      </a>
+      <a href="index.html">
+        <button class="home">🏠</button>
+      </a>
+      <a href="ejemplos.html" target="_blank">
+        <button>Ejemplos</button>
+      </a>
+    </div>
+
+    <div class="content">
+      <input
+        class="clausesInput"
+        type="text"
+        id="problemInput"
+        placeholder="Ingresa las clausulas"
+      />
+      <button class="runCode2sat" onclick="solution2sat(false)">
+        Buscar solución
+      </button>
+
+      <div id="aPrime2Sat" class="scrollable-div"></div>
+
+      <div id="result2sat" class="scrollable-div"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

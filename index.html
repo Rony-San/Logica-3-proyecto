@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-image: url(Abstract-nice-wallpaper-HD.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+      }
+
+      .block {
+        width: 400px;
+        height: 500px;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+        border-radius: 25px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .block:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      a {
+        color: aliceblue;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="implementacion.html" class="block">
+        <h2>Implementación</h2>
+      </a>
+      <a href="2satSolucion.html" class="block">
+        <h2>Solución rand 2-sat</h2>
+      </a>
+    </div>
+  </body>
+</html>
